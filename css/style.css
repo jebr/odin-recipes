@@ -1,5 +1,6 @@
 * {
-
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 img {
@@ -7,3 +8,9 @@ img {
     width: 500px;
     text-align: center;
 }
+
+.recipe-title {
+    text-decoration: purple;
+    text-decoration-line: underline;
+}
+
