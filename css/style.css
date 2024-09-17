@@ -29,7 +29,8 @@ img {
 }
 
 .recipe-list {
+    display: flex;
+    width: fit-content;
     background-color: beige;
-    width: max-content;
-    padding: 30px;
+    padding: 20px;
 }
