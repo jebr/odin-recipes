@@ -9,8 +9,27 @@ img {
     text-align: center;
 }
 
-.recipe-title {
-    text-decoration: purple;
-    text-decoration-line: underline;
+.header {
+    text-align: center;
+    background-color: burlywood;
+    background-image: url("https://www.foodandwine.com/thmb/fjNakOY7IcuvZac1hR3JcSo7vzI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/FAW-recipes-pasta-sausage-basil-and-mustard-hero-06-cfd1c0a2989e474ea7e574a38182bbee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: revert;
+    height: 300px;
+    display: flex;
+    justify-content: space-around; /* aligns the items horizontally */
+    align-items: center; /* aligns the items vertically */
 }
 
+#recipe-title {
+    color: white;
+    background-color: burlywood;
+    padding: 30px;
+}
+
+.recipe-list {
+    background-color: beige;
+    width: max-content;
+    padding: 30px;
+}
